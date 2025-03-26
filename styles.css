@@ -1,0 +1,224 @@
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-background {
+    width: 100%;
+    height: 20px;
+    background-color: #001f3f;
+    margin-bottom: 10px;
+}
+
+.logo {
+    scale: 110%;
+    margin-bottom: 10px;
+}
+
+nav {
+    background-color: #001f3f;
+    padding: 10px 0;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+}
+
+nav ul li {
+    margin-right: 30px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li a:hover {
+    background-color: #001a35;
+    border-radius: 5px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    padding-left: 50px; /* Add padding to the left */
+    padding-right: 50px; /* Add padding to the right */
+}
+
+.berita {
+    flex: 3;
+    margin-right: 40px; /* Increase margin to create more space */
+    border: 2px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.berita p {
+    text-align: justify; /* Add this line to justify text */
+}
+
+.sidebar {
+    flex: 1;
+    margin-left: 40px; /* Add margin to the left to create space */
+}
+
+.search-bar {
+    display: flex;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    padding: 0; /* Hapus padding untuk menghindari perbedaan tinggi */
+    border-radius: 5px;
+    overflow: hidden; /* Pastikan tidak ada elemen yang keluar dari container */
+}
+
+.search-bar input {
+    flex: 1;
+    padding: 10px;
+    border: none; /* Hilangkan border agar konsisten */
+    border-radius: 0;
+    box-sizing: border-box; /* Pastikan padding tidak menambah ukuran total */
+}
+
+.search-bar button {
+    padding: 0 20px; /* Sesuaikan padding horizontal */
+    background-color: #001f3f;
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto; /* Biarkan tinggi menyesuaikan dengan parent */
+    white-space: nowrap;
+}
+
+.kategori {
+    border: 2px solid #ccc; /* Match the border width of .berita */
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px; /* Add margin to match the spacing of .berita */
+}
+
+.kategori h3 {
+    margin: -10px -10px 10px -10px; /* Adjust margin to align background with border */
+    background-color: #001f3f;
+    color: white;
+    padding: 10px;
+    border-radius: 5px 5px 0 0; /* Adjust border radius to match the container */
+}
+
+.kategori ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.kategori ul li {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc; /* Add bottom border to each list item */
+    padding-bottom: 10px; /* Add padding to separate the border from the text */
+}
+
+.kategori ul li:last-child {
+    border-bottom: none; /* Remove bottom border from the last item */
+}
+
+.kategori ul li a {
+    text-decoration: none;
+    color: #001f3f;
+}
+
+.kategori ul li a:hover {
+    text-decoration: underline;
+}
+
+.logo-portal-center {
+    display: block;
+    margin: 5px auto; /* Center the image and add 5px margin */
+    padding: 5px; /* Add padding to the image */
+    border: 2px solid #ccc; /* Optional: Add a border to the image */
+    border-radius: 5px; /* Optional: Add border radius to the image */
+}
+
+form {
+    margin-top: 20px;
+    grid-column: 1;
+}
+
+input,
+textarea {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.checkbox-label {
+    display: inline-flex;
+    padding-left: 10px;
+    align-items: center;
+    gap: 10px; /* Ensures small space between checkbox and text */
+    white-space: nowrap; /* Prevents text from wrapping */
+}
+
+.checkbox-label input {
+    margin: 0; /* Removes margin to keep checkbox close to text */
+}
+
+footer {
+    background-color: #001f3f;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-links li {
+    margin: 0;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
